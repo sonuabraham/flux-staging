@@ -11,7 +11,7 @@ spec:
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
-        name: devops-tookit
+        name: devops-toolkit
   interval: 30s
   storageNamespace: staging
   targetNamespace: staging
